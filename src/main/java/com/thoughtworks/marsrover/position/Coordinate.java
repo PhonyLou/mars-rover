@@ -1,4 +1,4 @@
-package com.thoughtworks.marsrover;
+package com.thoughtworks.marsrover.position;
 
 public class Coordinate {
     public int x;

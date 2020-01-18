@@ -1,5 +1,13 @@
 package com.thoughtworks.marsrover;
 
+import com.thoughtworks.marsrover.command.Command;
+import com.thoughtworks.marsrover.command.TurnCommand;
+import com.thoughtworks.marsrover.position.Coordinate;
+import com.thoughtworks.marsrover.position.Direction;
+import com.thoughtworks.marsrover.position.Position;
+
+import java.util.List;
+
 /**
 
  Y       N
@@ -14,6 +22,12 @@ public class MarsRover {
     Coordinate coordinate;
     Direction direction;
     private int speed = 1;
+
+    public Position getCommand(List<Command> commands) {
+        return null;
+    }
+
+
 
     Coordinate forward() {
         switch (direction) {

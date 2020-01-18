@@ -1,6 +1,9 @@
 package com.thoughtworks.marsrover;
 
 
+import com.thoughtworks.marsrover.command.TurnCommand;
+import com.thoughtworks.marsrover.position.Coordinate;
+import com.thoughtworks.marsrover.position.Direction;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
